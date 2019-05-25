@@ -1,7 +1,9 @@
 var APP_DATA = {
   "scenes": [
+
+    // Pine View Kitchen data
     {
-      "id": "0-pine-view-kitchen",
+      "id": "Pine View Kitchen",
       "name": "Pine View Kitchen",
       "levels": [
         {
@@ -24,42 +26,73 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": 0.3268595844965514,
-        "pitch": -0.2199823919007926,
+        "yaw": 0.34553221341017704,
+        "pitch": -0.3000150467343943,
         "fov": 1.2634123859167636
       },
+
+      // Link hotspts of pine view kitchen
       "linkHotspots": [
         {
-          "yaw": 2.052626091097001,
-          "pitch": -0.025050521588385166,
+          "yaw": 1.5952929679252783,
+          "pitch": 0.006963272264323805,
           "rotation": 0,
-          "target": "1-piproom"
+          "target": "Pine View Kitchen"
         },
         {
-          "yaw": -2.11935417281728,
-          "pitch": -0.03924165627906184,
+          "yaw": 1.8679526252469074,
+          "pitch": 0.020725946251111793,
           "rotation": 0,
-          "target": "2-boreyr-outside"
+          "target": "Pine View Kitchen"
         },
         {
-          "yaw": -0.8054480853008954,
-          "pitch": -0.08289032607078006,
+          "yaw": 2.10157573133385,
+          "pitch": 0.020062516672403774,
           "rotation": 0,
-          "target": "6-boreya-upstair"
+          "target": "Pine View Kitchen"
+        },
+        {
+          "yaw": 2.297741181364036,
+          "pitch": 0.024698456907023214,
+          "rotation": 0,
+          "target": "Pine View Kitchen"
+        },
+        {
+          "yaw": -1.8849773983846418,
+          "pitch": 0.0008074282750740736,
+          "rotation": 0,
+          "target": "Pine View Kitchen"
+        },
+
+        // Link hotspot to BoreyA Overview
+        {
+          "yaw": -0.8180401418057635,
+          "pitch": -0.07241030143335259,
+          "rotation": 0,
+          "target": "BoreyA Overview"
+        },
+        {
+          "yaw": 0.6995901234104114,
+          "pitch": -0.06567061164170873,
+          "rotation": 0,
+          "target": "Pine View Kitchen"
         }
       ],
       "infoHotspots": [
+        // Information of Pine View Kitchen
         {
-          "yaw": 0.26912164235212543,
-          "pitch": -0.027579026523152805,
-          "title": "Pine view kitchen",
-          "text": "<div class=\"info-hotspot-title\">We can taste the delicious food and relax with view around the restaurant.<br></div>"
+          "yaw": 0.27304195677895535,
+          "pitch": -0.146228407941571,
+          "title": "Pine View Kitchen",
+          "text": "We can taste the delicious food and enjoy view around restaurant."
         }
       ]
     },
+
+    // BoreyA Overview data
     {
-      "id": "1-piproom",
-      "name": "Piproom",
+      "id": "BoreyA Overview",
+      "name": "BoreyA Overview",
       "levels": [
         {
           "tileSize": 256,
@@ -81,175 +114,45 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": 0.38020739348781873,
-        "pitch": 0.06828916626061243,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.8281992269798177,
-          "pitch": 0.06567915366757049,
-          "rotation": 0,
-          "target": "0-pine-view-kitchen"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.17124444589371102,
-          "pitch": 0.23121013786242983,
-          "title": "Piproom",
-          "text": "The place we can relax and enjoy the nature."
-        }
-      ]
-    },
-    {
-      "id": "2-boreyr-outside",
-      "name": "BoreyR Outside",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": -1.600979836052403,
-        "pitch": 0.03885177378078275,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6490431578756777,
-          "pitch": -0.006137662714099434,
-          "rotation": 0,
-          "target": "3-boreyr-view1"
-        },
-        {
-          "yaw": -0.6822717691442772,
-          "pitch": -0.0664977964820288,
-          "rotation": 0,
-          "target": "0-pine-view-kitchen"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.2428092437685905,
-          "pitch": -0.04724370483540952,
-          "title": "Borey R",
-          "text": "The place we can relax and enjoy the nature."
-        }
-      ]
-    },
-    {
-      "id": "3-boreyr-view1",
-      "name": "BoreyR View1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": 2.377807849039579,
-        "pitch": 0.4781928123248065,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.0000717455266255,
-          "pitch": -0.027323908928504892,
-          "rotation": 0,
-          "target": "5-boreyr-toilet"
-        },
-        {
-          "yaw": -1.5879478636932376,
-          "pitch": 0.13069425027827997,
-          "rotation": 0,
-          "target": "4-boreyr-view2"
-        },
-        {
-          "yaw": -0.877567087078285,
-          "pitch": 0.0332204946299921,
-          "rotation": 0,
-          "target": "0-pine-view-kitchen"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-boreyr-view2",
-      "name": "BoreyR View2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": 0.05534016194360092,
         "pitch": 0,
-        "fov": 1.2634123859167636
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
+
+      // Link hotspots of BoreyA Overview
       "linkHotspots": [
+        // Link hopspot to Pine View Kitchen
         {
-          "yaw": -0.6299293355457998,
-          "pitch": -0.010854328001279612,
+          "yaw": -1.2312700459593842,
+          "pitch": -0.040690112811695656,
           "rotation": 0,
-          "target": "0-pine-view-kitchen"
+          "target": "Pine View Kitchen"
         },
+        // Link hotspot to BoreyA View1
         {
-          "yaw": 0.6390162357796179,
-          "pitch": 0.24557123942646797,
+          "yaw": -0.021863814880106247,
+          "pitch": -0.015470139775704439,
           "rotation": 0,
-          "target": "3-boreyr-view1"
+          "target": "BoreyA View1"
         }
+        
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        // Information of BoreyA Overview
+        {
+          "yaw": -0.46950790230161665,
+          "pitch": -0.043464123153073686,
+          "title": "BoreyA Overview",
+          "text": "The place we can relax and enjoy with nature"
+        }
+      ]
     },
+
+
+    // BoreyA View1 data
     {
-      "id": "5-boreyr-toilet",
-      "name": "BoreyR Toilet",
+      "id": "BoreyA View1",
+      "name": "BoreyA View1",
       "levels": [
         {
           "tileSize": 256,
@@ -271,23 +174,69 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": 3.0654013560844753,
-        "pitch": 0.03717253571298684,
+        "yaw": 2.852830866782737,
+        "pitch": -0.06590329090379399,
         "fov": 1.2634123859167636
       },
+
+      // Link hotspots of BoreyA View1
       "linkHotspots": [
+        // Link hotspot to BoreyA Overview
         {
-          "yaw": 0.23011028357094254,
-          "pitch": 0.07786597811865903,
+          "yaw": 0.5110012922442948,
+          "pitch": -0.02534464164626371,
           "rotation": 0,
-          "target": "3-boreyr-view1"
+          "target": "BoreyA Overview"
+        },
+
+        // Link hotspot to BoreyA View2
+        {
+          "yaw": 2.2472641841207857,
+          "pitch": 0.2130322965227318,
+          "rotation": 3.141592653589793,
+          "target": "BoreyA View2"
+        },
+
+        // Link hotspot to BoreyA Upstairs
+        {
+          "yaw": -3.139871135004899,
+          "pitch": -0.4662218119496,
+          "rotation": 0,
+          "target": "BoreyA Upstairs"
+        },
+
+        // Link hotspot to BoreyA Bathroom
+        {
+          "yaw": -2.999023631081048,
+          "pitch": 0.037671971812258676,
+          "rotation": 0,
+          "target": "BoreyA Bathroom"
+        },
+
+        // Link hotspot to BoreyA Room1
+        {
+          "yaw": -2.4252421833426965,
+          "pitch": -0.021120319982427915,
+          "rotation": 0,
+          "target": "BoreyA Room1"
+        },
+
+        // Link hotspot to BoreyA Room2
+        {
+          "yaw": -1.9578873475596374,
+          "pitch": -0.015328267046289312,
+          "rotation": 0,
+          "target": "BoreyA Room2"
         }
       ],
       "infoHotspots": []
     },
+
+
+    // BoreyA View2 data
     {
-      "id": "6-boreya-upstair",
-      "name": "BoreyA Upstair",
+      "id": "BoreyA View2",
+      "name": "BoreyA View2",
       "levels": [
         {
           "tileSize": 256,
@@ -309,28 +258,52 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": -2.216410975231277,
-        "pitch": 0.24673700713196212,
+        "yaw": -3.029188017077816,
+        "pitch": 0.07803333134721058,
         "fov": 1.2634123859167636
       },
+
+      // Link hotspots of BoreyA View2
       "linkHotspots": [
+
+        //Link hotspot to BoreyA Upstairs
         {
-          "yaw": -0.33847966975232424,
-          "pitch": 0.439122450060232,
+          "yaw": -2.0071392614899395,
+          "pitch": -0.4636363155826082,
           "rotation": 0,
-          "target": "7-boreya-room1"
+          "target": "BoreyA Upstairs"
         },
+
+        // Link hotspot to BoreyA Room1
         {
-          "yaw": -1.6916733530102626,
-          "pitch": -0.049670364241352516,
+          "yaw": -1.3138311500055746,
+          "pitch": 0.0280805587265629,
           "rotation": 0,
-          "target": "0-pine-view-kitchen"
+          "target": "BoreyA Room1"
+        },
+
+        // Link hotspot to BoreyA Room2
+        {
+          "yaw": -0.984304276704119,
+          "pitch": 0.026937877006513844,
+          "rotation": 0,
+          "target": "BoreyA Room2"
+        },
+
+        // Link hotspot to BoreyA View1
+        {
+          "yaw": -0.703505506095718,
+          "pitch": 0.18885197271444554,
+          "rotation": 3.141592653589793,
+          "target": "BoreyA View1"
         }
       ],
       "infoHotspots": []
     },
+
+    // BoreyA Room1 data
     {
-      "id": "7-boreya-room1",
+      "id": "BoreyA Room1",
       "name": "BoreyA Room1",
       "levels": [
         {
@@ -353,35 +326,28 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": -0.468428328070047,
-        "pitch": 0.2407915370805931,
+        "yaw": -0.9549071012592698,
+        "pitch": 0,
         "fov": 1.2634123859167636
       },
+
+      // Link hotspots of BoreyA Room1
       "linkHotspots": [
+
+        // Link hotspot to BoreyA View1
         {
-          "yaw": 1.6410139101563619,
-          "pitch": 0.04993268686776098,
+          "yaw": 1.5666229811389707,
+          "pitch": 0.04342229547313359,
           "rotation": 0,
-          "target": "8-boreya-room2"
-        },
-        {
-          "yaw": 0.4458937318122995,
-          "pitch": -0.16934086289769645,
-          "rotation": 0,
-          "target": "0-pine-view-kitchen"
+          "target": "BoreyA View1"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -0.5026209114680977,
-          "pitch": 0.34812055579063994,
-          "title": "Borey A",
-          "text": "The place we can relax and enjoy the nature."
-        }
-      ]
+      "infoHotspots": []
     },
+
+    // BoreyA Room2 data
     {
-      "id": "8-boreya-room2",
+      "id": "BoreyA Room2",
       "name": "BoreyA Room2",
       "levels": [
         {
@@ -404,28 +370,138 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": 1.5483709372299428,
-        "pitch": 0.2801541555347278,
+        "yaw": 1.4543721635886033,
+        "pitch": 0,
         "fov": 1.2634123859167636
       },
+
+      // Link hotspot of BoreyA Room2
       "linkHotspots": [
+
+        // Link hotspot to BoreyA View1
         {
-          "yaw": -1.6524086670859752,
-          "pitch": 0.07686067062854107,
+          "yaw": -1.6770393492394753,
+          "pitch": 0.014543231854645455,
           "rotation": 0,
-          "target": "7-boreya-room1"
-        },
-        {
-          "yaw": 2.9496607580546286,
-          "pitch": -0.00591485354389043,
-          "rotation": 0,
-          "target": "0-pine-view-kitchen"
+          "target": "BoreyA View1"
         }
       ],
       "infoHotspots": []
-    }
+    },
+
+    // BoreyA Upstairs data
+    {
+      "id": "BoreyA Upstairs",
+      "name": "BoreyA Upstairs",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 2.9386058211410937,
+        "pitch": 0.24610402586884916,
+        "fov": 1.2634123859167636
+      },
+
+      // Link hotspot of BoreyA Upstairs
+      "linkHotspots": [
+
+        // Link hotspot to BoreyA View1
+        {
+          "yaw": -0.36868749690825986,
+          "pitch": 0.14055851966688593,
+          "rotation": 3.141592653589793,
+          "target": "BoreyA View2"
+        }
+      ],
+      "infoHotspots": []
+    },
+
+    // BoreyA Bathroom data
+    {
+      "id": "BoreyA Bathroom",
+      "name": "BoreyA Bathroom",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -3.093220267250091,
+        "pitch": 0,
+        "fov": 1.2634123859167636
+      },
+
+      // Link hotspot of BoreyA Bathroom
+      "linkHotspots": [
+
+      // Link hotspot to BoreyA View1
+        {
+          "yaw": 0.5811232082232536,
+          "pitch": 0.3210227871897047,
+          "rotation": 0,
+          "target": "BoreyA View1"
+        }
+      ],
+      "infoHotspots": []
+    },
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ],
-  "name": "Project Title",
+  "name": "Project",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
