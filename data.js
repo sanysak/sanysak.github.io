@@ -69,11 +69,13 @@ var APP_DATA = {
           "rotation": 0,
           "target": "Piproom Overview"
         },
+
+        // Link hotspot to BoreyR Overview
         {
           "yaw": -1.8849773983846418,
           "pitch": 0.0008074282750740736,
           "rotation": 0,
-          "target": "Pine View Kitchen"
+          "target": "BoreyR Overview"
         },
 
         // Link hotspot to BoreyA Overview
@@ -83,6 +85,7 @@ var APP_DATA = {
           "rotation": 0,
           "target": "BoreyA Overview"
         },
+        // Link hotspot to Bungalow Overview
         {
           "yaw": 0.6995901234104114,
           "pitch": -0.06567061164170873,
