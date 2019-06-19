@@ -1104,7 +1104,7 @@ var APP_DATA = {
 
     // Link hotspot to KhmerCottage Overview
         {
-          "yaw": 0.1044992452034812,
+          "yaw": -1.1044992452034812,
           "pitch": -0.02566869664594229,
           "rotation": 0,
           "target": "KhmerCottage Overview"
