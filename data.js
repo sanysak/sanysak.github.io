@@ -5,7 +5,7 @@ var APP_DATA = {
     /* pitch is rotation value from top to down. 
     we can change the value to change the position of Link hotspot or Info hotspot.*/
 
-    // Pine View Kitchen data
+// Pine View Kitchen data
     {
       "id": "Pine View Kitchen",
       "name": "Pine View Kitchen",
@@ -35,10 +35,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspts of pine view kitchen
+  // Link hotspts of pine view kitchen
       "linkHotspots": [
 
-        // Link hotspot to Camping
+    // Link hotspot to Camping
         {
           "yaw": 1.5952929679252783,
           "pitch": 0.006963272264323805,
@@ -46,7 +46,7 @@ var APP_DATA = {
           "target": "Camping"
         },
 
-        // Link hotspot to LuxuryTent
+    // Link hotspot to LuxuryTent
         {
           "yaw": 1.8679526252469074,
           "pitch": 0.020725946251111793,
@@ -54,7 +54,7 @@ var APP_DATA = {
           "target": "LuxuryTent Overview"
         },
 
-        // Link hotspot to KhmerCottage Overview
+    // Link hotspot to KhmerCottage Overview
         {
           "yaw": 2.10157573133385,
           "pitch": 0.020062516672403774,
@@ -62,7 +62,7 @@ var APP_DATA = {
           "target": "KhmerCottage Overview"
         },
 
-        // Link hotspot to Piproom Overview
+    // Link hotspot to Piproom Overview
         {
           "yaw": 2.297741181364036,
           "pitch": 0.024698456907023214,
@@ -70,7 +70,7 @@ var APP_DATA = {
           "target": "Piproom Overview"
         },
 
-        // Link hotspot to BoreyR Overview
+    // Link hotspot to BoreyR Overview
         {
           "yaw": -1.8849773983846418,
           "pitch": 0.0008074282750740736,
@@ -78,14 +78,14 @@ var APP_DATA = {
           "target": "BoreyR Overview"
         },
 
-        // Link hotspot to BoreyA Overview
+    // Link hotspot to BoreyA Overview
         {
           "yaw": -0.8180401418057635,
           "pitch": -0.07241030143335259,
           "rotation": 0,
           "target": "BoreyA Overview"
         },
-        // Link hotspot to Bungalow Overview
+    // Link hotspot to Bungalow Overview
         {
           "yaw": 0.6995901234104114,
           "pitch": -0.06567061164170873,
@@ -94,7 +94,7 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        // Information of Pine View Kitchen
+    // Information of Pine View Kitchen
         {
           "yaw": 0.27304195677895535,
           "pitch": -0.146228407941571,
@@ -104,7 +104,8 @@ var APP_DATA = {
       ]
     },
 
-    // BoreyA Overview data
+    
+// BoreyA Overview data
     {
       "id": "BoreyA Overview",
       "name": "BoreyA Overview",
@@ -134,16 +135,16 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
 
-      // Link hotspots of BoreyA Overview
+  // Link hotspots of BoreyA Overview
       "linkHotspots": [
-        // Link hopspot to Pine View Kitchen
+    // Link hopspot to Pine View Kitchen
         {
           "yaw": -1.2312700459593842,
           "pitch": -0.040690112811695656,
           "rotation": 0,
           "target": "Pine View Kitchen"
         },
-        // Link hotspot to BoreyA View1
+    // Link hotspot to BoreyA View1
         {
           "yaw": -0.021863814880106247,
           "pitch": -0.015470139775704439,
@@ -153,7 +154,7 @@ var APP_DATA = {
         
       ],
       "infoHotspots": [
-        // Information of BoreyA Overview
+    // Information of BoreyA Overview
         {
           "yaw": -0.46950790230161665,
           "pitch": -0.043464123153073686,
@@ -164,7 +165,7 @@ var APP_DATA = {
     },
 
 
-    // BoreyA View1 data
+// BoreyA View1 data
     {
       "id": "BoreyA View1",
       "name": "BoreyA View1",
@@ -194,9 +195,9 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspots of BoreyA View1
+  // Link hotspots of BoreyA View1
       "linkHotspots": [
-        // Link hotspot to BoreyA Overview
+    // Link hotspot to BoreyA Overview
         {
           "yaw": 0.5110012922442948,
           "pitch": -0.02534464164626371,
@@ -204,7 +205,7 @@ var APP_DATA = {
           "target": "BoreyA Overview"
         },
 
-        // Link hotspot to BoreyA View2
+    // Link hotspot to BoreyA View2
         {
           "yaw": 2.2472641841207857,
           "pitch": 0.2130322965227318,
@@ -212,7 +213,7 @@ var APP_DATA = {
           "target": "BoreyA View2"
         },
 
-        // Link hotspot to BoreyA Upstairs
+    // Link hotspot to BoreyA Upstairs
         {
           "yaw": -3.139871135004899,
           "pitch": -0.4662218119496,
@@ -220,7 +221,7 @@ var APP_DATA = {
           "target": "BoreyA Upstairs"
         },
 
-        // Link hotspot to BoreyA Bathroom
+    // Link hotspot to BoreyA Bathroom
         {
           "yaw": -2.999023631081048,
           "pitch": 0.037671971812258676,
@@ -228,7 +229,7 @@ var APP_DATA = {
           "target": "BoreyA Bathroom"
         },
 
-        // Link hotspot to BoreyA Room1
+    // Link hotspot to BoreyA Room1
         {
           "yaw": -2.4252421833426965,
           "pitch": -0.021120319982427915,
@@ -236,7 +237,7 @@ var APP_DATA = {
           "target": "BoreyA Room1"
         },
 
-        // Link hotspot to BoreyA Room2
+    // Link hotspot to BoreyA Room2
         {
           "yaw": -1.9578873475596374,
           "pitch": -0.015328267046289312,
@@ -248,7 +249,7 @@ var APP_DATA = {
     },
 
 
-    // BoreyA View2 data
+// BoreyA View2 data
     {
       "id": "BoreyA View2",
       "name": "BoreyA View2",
@@ -278,10 +279,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspots of BoreyA View2
+  // Link hotspots of BoreyA View2
       "linkHotspots": [
 
-        //Link hotspot to BoreyA Upstairs
+    //Link hotspot to BoreyA Upstairs
         {
           "yaw": -2.0071392614899395,
           "pitch": -0.4636363155826082,
@@ -289,7 +290,7 @@ var APP_DATA = {
           "target": "BoreyA Upstairs"
         },
 
-        // Link hotspot to BoreyA Room1
+    // Link hotspot to BoreyA Room1
         {
           "yaw": -1.3138311500055746,
           "pitch": 0.0280805587265629,
@@ -297,7 +298,7 @@ var APP_DATA = {
           "target": "BoreyA Room1"
         },
 
-        // Link hotspot to BoreyA Room2
+    // Link hotspot to BoreyA Room2
         {
           "yaw": -0.984304276704119,
           "pitch": 0.026937877006513844,
@@ -305,7 +306,7 @@ var APP_DATA = {
           "target": "BoreyA Room2"
         },
 
-        // Link hotspot to BoreyA View1
+    // Link hotspot to BoreyA View1
         {
           "yaw": -0.703505506095718,
           "pitch": 0.18885197271444554,
@@ -316,7 +317,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyA Room1 data
+// BoreyA Room1 data
     {
       "id": "BoreyA Room1",
       "name": "BoreyA Room1",
@@ -346,10 +347,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspots of BoreyA Room1
+  // Link hotspots of BoreyA Room1
       "linkHotspots": [
 
-        // Link hotspot to BoreyA View1
+    // Link hotspot to BoreyA View1
         {
           "yaw": 1.5666229811389707,
           "pitch": 0.04342229547313359,
@@ -360,7 +361,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyA Room2 data
+// BoreyA Room2 data
     {
       "id": "BoreyA Room2",
       "name": "BoreyA Room2",
@@ -390,10 +391,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of BoreyA Room2
+  // Link hotspot of BoreyA Room2
       "linkHotspots": [
 
-        // Link hotspot to BoreyA View1
+    // Link hotspot to BoreyA View1
         {
           "yaw": -1.6770393492394753,
           "pitch": 0.014543231854645455,
@@ -404,7 +405,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyA Upstairs data
+// BoreyA Upstairs data
     {
       "id": "BoreyA Upstairs",
       "name": "BoreyA Upstairs",
@@ -434,10 +435,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of BoreyA Upstairs
+  // Link hotspot of BoreyA Upstairs
       "linkHotspots": [
 
-        // Link hotspot to BoreyA View1
+    // Link hotspot to BoreyA View1
         {
           "yaw": -0.36868749690825986,
           "pitch": 0.14055851966688593,
@@ -448,7 +449,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyA Bathroom data
+// BoreyA Bathroom data
     {
       "id": "BoreyA Bathroom",
       "name": "BoreyA Bathroom",
@@ -478,7 +479,7 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of BoreyA Bathroom
+  // Link hotspot of BoreyA Bathroom
       "linkHotspots": [
 
       // Link hotspot to BoreyA View1
@@ -492,7 +493,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // Bungalow Overview data
+// Bungalow Overview data
     {
       "id": "Bungalow Overview",
       "name": "Bungalow Overview",
@@ -522,17 +523,17 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of Bungalow Overview
+  // Link hotspot of Bungalow Overview
       "linkHotspots": [
 
-        // Link hotspot to Bungalow View1
+    // Link hotspot to Bungalow View1
         {
           "yaw": -1.7569490631671947,
           "pitch": -0.22145746027428181,
           "rotation": 0,
           "target": "Bungalow View1"
         },
-        //Link hotspot to Pine View Kitchen
+    //Link hotspot to Pine View Kitchen
         {
           "yaw": 0.6299350675239914,
           "pitch": -0.054956210091056334,
@@ -541,7 +542,7 @@ var APP_DATA = {
         }
       ],
 
-      // Bungalow Overview information
+// Bungalow Overview information
       "infoHotspots": [
         {
           "yaw": -1.3796379434368369,
@@ -552,7 +553,7 @@ var APP_DATA = {
       ]
     },
 
-    // Bungalow View1 data
+// Bungalow View1 data
     {
       "id": "Bungalow View1",
       "name": "Bungalow View1",
@@ -582,10 +583,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of Bungalow View1
+  // Link hotspot of Bungalow View1
       "linkHotspots": [
 
-        // Link hotspot to Bungalow View2
+    // Link hotspot to Bungalow View2
         {
           "yaw": 1.4978899372955876,
           "pitch": 0.017130334011110193,
@@ -593,7 +594,7 @@ var APP_DATA = {
           "target": "Bungalow View2"
         },
 
-        // Link hotspot to Bungalow Overview
+    // Link hotspot to Bungalow Overview
         {
           "yaw": -2.517874015967571,
           "pitch": 0.041364324279193454,
@@ -604,7 +605,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // Bungalow View2 data
+// Bungalow View2 data
     {
       "id": "Bungalow View2",
       "name": "Bungalow View2",
@@ -634,10 +635,10 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
 
-      // Link hotspot of Bungalow View2
+  // Link hotspot of Bungalow View2
       "linkHotspots": [
 
-        // Link hotspot of Bungalow Outside
+    // Link hotspot of Bungalow Outside
         {
           "yaw": 0.0747348404014101,
           "pitch": 0.056670039815275075,
@@ -645,7 +646,7 @@ var APP_DATA = {
           "target": "Bungalow Outside"
         },
 
-        // Link hotspot to Bungalow Toilet
+    // Link hotspot to Bungalow Toilet
         {
           "yaw": 1.6722627419714868,
           "pitch": 0.17164477648703524,
@@ -653,7 +654,7 @@ var APP_DATA = {
           "target": "Bungalow Toilet"
         },
         
-        // Link hotspot to Bungalow View1
+    // Link hotspot to Bungalow View1
         {
           "yaw": 2.976748503364367,
           "pitch": 0.21261747271366005,
@@ -664,7 +665,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // Bungalow Toilet data
+// Bungalow Toilet data
       {
         "id": "Bungalow Toilet",
         "name": "Bungalow Toilet",
@@ -694,10 +695,10 @@ var APP_DATA = {
           "fov": 1.1490439151539336
         },
 
-        // Link hotspot of Bungalow Toilet
+    // Link hotspot of Bungalow Toilet
         "linkHotspots": [
 
-          // Link hotspot to Bungalow View2
+      // Link hotspot to Bungalow View2
           {
             "yaw": -1.8778041520296558,
             "pitch": -0.1389952856172627,
@@ -708,7 +709,7 @@ var APP_DATA = {
         "infoHotspots": []
       },
 
-    // Bungalow Outside data
+// Bungalow Outside data
     {
       "id": "Bungalow Outside",
       "name": "Bungalow Outside",
@@ -738,10 +739,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of Bungalow Outside
+  // Link hotspot of Bungalow Outside
       "linkHotspots": [
 
-        // Link hotspot to Bungalow View2
+    // Link hotspot to Bungalow View2
         {
           "yaw": 0.21635716567901753,
           "pitch": 0.16380558981872895,
@@ -752,7 +753,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // Camping data
+// Camping data
     {
       "id": "Camping",
       "name": "Camping",
@@ -782,10 +783,10 @@ var APP_DATA = {
         "fov": 1.1490439151539336
       },
 
-      // Link hotspots of Camping
+  // Link hotspots of Camping
       "linkHotspots": [
 
-        // Link hotspot to Camping inside
+    // Link hotspot to Camping inside
         {
           "yaw": -1.664234928285241,
           "pitch": 0.08969856678680799,
@@ -793,7 +794,7 @@ var APP_DATA = {
           "target": "Camping Inside"
         },
 
-        // Link hotspot to Pine View Kitchen
+    // Link hotspot to Pine View Kitchen
         {
           "yaw": 0.550526025245361,
           "pitch": 0.10254096602752938,
@@ -811,7 +812,7 @@ var APP_DATA = {
       ]
     },
 
-    // Camping Inside data
+// Camping Inside data
     {
       "id": "Camping Inside",
       "name": "Camping Inside",
@@ -841,10 +842,10 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
 
-      // Link hotspot of Camping inside
+  // Link hotspot of Camping inside
       "linkHotspots": [
 
-        // Link hotspot to Camping
+    // Link hotspot to Camping
         {
           "yaw": -0.22016490926947263,
           "pitch": -0.00511442385771943,
@@ -855,7 +856,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // LuxuryTent Overview
+// LuxuryTent Overview data
     {
       "id": "LuxuryTent Overview",
       "name": "LuxuryTent Overview",
@@ -885,10 +886,10 @@ var APP_DATA = {
         "fov": 1.1490439151539336
       },
 
-      // Link hotspot of LuxuryTent Overview
+// Link hotspot of LuxuryTent Overview
       "linkHotspots": [
 
-      // Link hotspot to LuxuryTent Inside
+  // Link hotspot to LuxuryTent Inside
         {
           "yaw": -1.7582188457209043,
           "pitch": -0.10889987337131402,
@@ -896,7 +897,7 @@ var APP_DATA = {
           "target": "LuxuryTent Inside"
         },
 
-        // Link hotspot to Pine View Kitchen
+    // Link hotspot to Pine View Kitchen
         {
           "yaw": 2.657083194569328,
           "pitch": -0.05136529877583129,
@@ -914,7 +915,7 @@ var APP_DATA = {
       ]
     },
 
-    // LuxuryTent Inside data
+// LuxuryTent Inside data
     {
       "id": "LuxuryTent Inside",
       "name": "LuxuryTent Inside",
@@ -944,17 +945,17 @@ var APP_DATA = {
         "fov": 1.1490439151539336
       },
 
-      // Link hotspot of LuxuryTent Inside
+  // Link hotspot of LuxuryTent Inside
       "linkHotspots": [
 
-        // Link hotspot to LuxuryTent Toilet
+    // Link hotspot to LuxuryTent Toilet
         {
           "yaw": 0.9699436089975144,
           "pitch": -0.24335533026740208,
           "rotation": 0,
           "target": "LuxuryTent Toilet"
         },
-        // Link hotspot to LuxuryTent Overview
+    // Link hotspot to LuxuryTent Overview
         {
           "yaw": -1.6071127752597132,
           "pitch": -0.20564418645484395,
@@ -965,7 +966,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // LuxuryTent Toilet data
+// LuxuryTent Toilet data
     {
       "id": "LuxuryTent Toilet",
       "name": "LuxuryTent Toilet",
@@ -995,10 +996,10 @@ var APP_DATA = {
         "fov": 1.1490439151539336
       },
 
-      // Link hotspot of Luxury Toilet
+  // Link hotspot of Luxury Toilet
       "linkHotspots": [
 
-        // Link hotspot to Luxury Inside
+    // Link hotspot to Luxury Inside
         {
           "yaw": 1.3287355041603135,
           "pitch": -0.002883294896445676,
@@ -1009,7 +1010,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // KhmerCottage Overview data
+// KhmerCottage Overview data
     {
       "id": "KhmerCottage Overview",
       "name": "KhmerCottage Overview",
@@ -1039,10 +1040,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of KhmerCottage Overview
+  // Link hotspot of KhmerCottage Overview
       "linkHotspots": [
 
-        // Link hotspot to KhmerCottage Inside
+    // Link hotspot to KhmerCottage Inside
         {
           "yaw": -3.049914211754567,
           "pitch": -0.04643465131071878,
@@ -1050,7 +1051,7 @@ var APP_DATA = {
           "target": "KhmerCottage Inside"
         },
 
-        // Link hotspot to Pine View kitchen
+    // Link hotspot to Pine View kitchen
         {
           "yaw": 1.5017733365709436,
           "pitch": -0.004715214926829248,
@@ -1068,7 +1069,7 @@ var APP_DATA = {
       ]
     },
 
-    // KhmerCottage Inside data
+// KhmerCottage Inside data
     {
       "id": "KhmerCottage Inside",
       "name": "KhmerCottage Inside",
@@ -1098,10 +1099,10 @@ var APP_DATA = {
         "fov": 1.2634123859167636
       },
 
-      // Link hotspot of KhmerCottage Inside
+  // Link hotspot of KhmerCottage Inside
       "linkHotspots": [
 
-        // Link hotspot to KhmerCottage Overview
+    // Link hotspot to KhmerCottage Overview
         {
           "yaw": 0.1044992452034812,
           "pitch": -0.02566869664594229,
@@ -1112,7 +1113,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // Piproom Overview data
+// Piproom Overview data
     {
       "id": "Piproom Overview",
       "name": "Piproom Overview",
@@ -1142,10 +1143,10 @@ var APP_DATA = {
         "fov": 1.1490439151539336
       },
 
-      // Link hotspot of Piproom Overview
+  // Link hotspot of Piproom Overview
       "linkHotspots": [
 
-        // Link hotspot to Pine View Kitchen
+    // Link hotspot to Pine View Kitchen
         {
           "yaw": 1.8055652332628247,
           "pitch": -0.0717312209070542,
@@ -1153,7 +1154,7 @@ var APP_DATA = {
           "target": "Pine View Kitchen"
         },
 
-        // Link hotspot to Piproom Inside
+    // Link hotspot to Piproom Inside
         {
           "yaw": -0.6098020733288525,
           "pitch": 0.011649687318323387,
@@ -1171,7 +1172,7 @@ var APP_DATA = {
       ]
     },
 
-    // Piproom Inside data
+// Piproom Inside data
     {
       "id": "Piproom Inside",
       "name": "Piproom Inside",
@@ -1201,10 +1202,10 @@ var APP_DATA = {
         "fov": 1.1490439151539336
       },
 
-      // Link hotspot of Piproom Inside
+  // Link hotspot of Piproom Inside
       "linkHotspots": [
 
-        // Link hotspot to Piproom Overview
+    // Link hotspot to Piproom Overview
         {
           "yaw": -2.871423546273734,
           "pitch": 0.1263662682210036,
@@ -1215,7 +1216,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyR Overview data
+// BoreyR Overview data
     {
       "id": "BoreyR Overview",
       "name": "BoreyR Overview",
@@ -1244,13 +1245,17 @@ var APP_DATA = {
         "pitch": -0.2705188873374631,
         "fov": 1.2634123859167636
       },
+
+  // Link hotspot of BoreyR Overview
       "linkHotspots": [
+    // Link hotspot to BoreyR View1
         {
           "yaw": 3.0024252569710894,
           "pitch": -0.2694142219278106,
           "rotation": 0,
           "target": "BoreyR View1"
         },
+    // Link hotspot to Pine View Kitchen
         {
           "yaw": -2.0507496757331865,
           "pitch": -0.15688259332610954,
@@ -1268,7 +1273,7 @@ var APP_DATA = {
       ]
     },
 
-    // BoreyR View1 data
+// BoreyR View1 data
     {
       "id": "BoreyR View1",
       "name": "BoreyR View1",
@@ -1297,7 +1302,9 @@ var APP_DATA = {
         "pitch": 0.2609372852368992,
         "fov": 1.2634123859167636
       },
+  // Link hotspot of BoreyR View1
       "linkHotspots": [
+    // Link hotspot to BoreyR View2
         {
           "yaw": 0.6354020187690299,
           "pitch": 0.27407488267536806,
@@ -1314,7 +1321,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyR View2 data
+// BoreyR View2 data
     {
       "id": "BoreyR View2",
       "name": "BoreyR View2",
@@ -1343,13 +1350,16 @@ var APP_DATA = {
         "pitch": 0.4756376041098278,
         "fov": 1.2634123859167636
       },
+  // Link hotspot of BoreyR View2
       "linkHotspots": [
+    // Link hotspot to BoreyR Toilet
         {
           "yaw": -3.018952626657203,
           "pitch": -0.041219098035075064,
           "rotation": 0,
           "target": "BoreyR Toilet"
         },
+    // Link hotspot to BoreyR Overview
         {
           "yaw": -0.8725650544574464,
           "pitch": 0.005741737119794976,
@@ -1366,7 +1376,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
 
-    // BoreyR Toilet data
+// BoreyR Toilet data
     {
       "id": "BoreyR Toilet",
       "name": "BoreyR Toilet",
@@ -1395,7 +1405,9 @@ var APP_DATA = {
         "pitch": 0,
         "fov": 1.2634123859167636
       },
+  // Link hotspot of BoreyR Toilet
       "linkHotspots": [
+    // Link hotspot to BoreyR View2
         {
           "yaw": 0.22539009979361957,
           "pitch": -0.10054234328832834,
@@ -1405,30 +1417,6 @@ var APP_DATA = {
       ],
       "infoHotspots": []
     }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ],
   "name": "Project",
   "settings": {
