@@ -99,7 +99,8 @@ var APP_DATA = {
           "yaw": 0.27304195677895535,
           "pitch": -0.146228407941571,
           "title": "Pine View Kitchen",
-          "text": "We can taste the delicious food and enjoy view around restaurant."
+          "text": "The restaurant is surrounded by lofty pine trees that make the sound of the wind soothing to the ears while you enjoy your meal. Our chef master prepares Khmer dishes cooked with fresh vegetables and fruits picked from our garden. Pine View Kitchen Restaurant are the best for your vacation and holidays."
+
         }
       ]
     },
@@ -159,7 +160,7 @@ var APP_DATA = {
           "yaw": -0.46950790230161665,
           "pitch": -0.043464123153073686,
           "title": "BoreyA Overview",
-          "text": "The place we can relax and enjoy with nature"
+          "text": "This two-bedroom villa with a mezzanine level is suitable for bigger families or group. This modern designed building has a bath and shower room with a state of the art kitchen, a wide living room and an open roof deck for BBQ party or just simply relaxing under the sun or the stars."
         }
       ]
     },
@@ -548,7 +549,7 @@ var APP_DATA = {
           "yaw": -1.3796379434368369,
           "pitch": -0.21952368284100388,
           "title": "Bungalow",
-          "text": "The place we can relax and enjoy with nature"
+          "text": "Stay in one of our specially designed bungalows and experience the invigorating fresh air of Kirirom. Relax in our king size or twin-bed bungalows. King size or twin bed(s) / Ceiling fan / Local TV / En-suit bathroom (with hot water supply) / Electric kettle / Hair dryer / Private veranda / Free Wi-fi Internet / Safe box."
         }
       ]
     },
@@ -807,7 +808,7 @@ var APP_DATA = {
           "yaw": -1.3476461965762532,
           "pitch": 0.0513494397726884,
           "title": "Camping",
-          "text": "The place we can enjoy and relax with nature."
+          "text": "Come with your car and camp amongst nature. With your safety in mind, our campsite has a perimeter fence and 24 hours security staff on duty. Simply drive your car to Kirirom. Park and camp in one of our car camping grounds. You can rent or purchase camping equipment and tools in our resort."
         }
       ]
     },
@@ -910,7 +911,7 @@ var APP_DATA = {
           "yaw": -0.805969729835569,
           "pitch": -0.12838213279834783,
           "title": "Luxury Tent",
-          "text": "The place we can enjoy and relax with nature"
+          "text": "Stay in style and comfort in a high quality tent with the comfort of a hotel room. The tents come with a king size bed and en-suite bathroom. Rooms size is 5m x 4 m (20m2).Luxury Tent is a modern tent house which has a king size bed and nice bath room. Its size is 5m x 4m or 20m2."
         }
       ]
     },
@@ -1064,7 +1065,7 @@ var APP_DATA = {
           "yaw": 2.678745583334121,
           "pitch": -0.07643465131071878,
           "title": "Khmer Cottage",
-          "text": "The place we can enjoy and relax with nature."
+          "text": "Experience a real Khmer traditional hut with the fresh and cool breeze. Stay in a Khmer farmer's open-style house nicely decorated with natural materials. Each cottage has twin beds and is best suited to students and couples who would like to enjoy the natural fresh air of the pine forests in Kirirom Mountain. Each cottage size is 3m x 4m (12m2)."
         }
       ]
     },
@@ -1167,7 +1168,7 @@ var APP_DATA = {
           "yaw": -1.3960811934133446,
           "pitch": 0.01032115009677348,
           "title": "Piproom",
-          "text": "The place we can enjoy and relax with nature."
+          "text": "A unique design to Cambodia and other Asian countries, the Pipe Rooms are affordable but cozy. Our pipe rooms are ideal for students and couples who want to experience a creatively designed room in our beautiful, natural resort."
         }
       ]
     },
@@ -1268,7 +1269,7 @@ var APP_DATA = {
           "yaw": -2.984132826344581,
           "pitch": -0.2994142219278106,
           "title": "BoreyR",
-          "text": "The place we can enjoy and relax with nature"
+          "text": "Comprising of a combined bedroom, living, dining, kitchen area and an attached toilet, these versatile homes promises lots of many pleasant experiences in the cool Kiririom mountain top. Jasmine hills – elevate your lifestyle today"
         }
       ]
     },
